@@ -1,7 +1,7 @@
 #!/bin/bash
 
-NDK=~/android/android-ndk-r9
-PREBUILT=$NDK/toolchains/arm-linux-androideabi-4.6/prebuilt/
+NDK=/opt/android-ndk-r9b
+PREBUILT=$NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/
 PLATFORM=$NDK/platforms/android-9/arch-arm/
 
 export CC="$PREBUILT/linux-x86_64/bin/arm-linux-androideabi-gcc"
